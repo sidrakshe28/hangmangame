@@ -8,6 +8,9 @@ function App() {
   return (
     <div>
       <Header/>
+      <div className="game-container">
+        <Figure/>
+      </div>
     </div>
   );
 }
