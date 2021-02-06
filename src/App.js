@@ -6,6 +6,9 @@ import Word from './components/Word';
 
 import './App.css';
 
+const words = ['application','programming','interface','wizard'];
+
+
 function App() {
   return (
     <div>
