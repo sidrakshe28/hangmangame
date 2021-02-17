@@ -1,4 +1,5 @@
 import React from 'react'
+import {checkWin} from '../helpers/helpers';
 
 function Popup( {correctLetters,wrongLetters,selectedWord,setPlayable }) {
     let finalMessage='';
