@@ -1,6 +1,9 @@
 import React from 'react'
 
-function Popup() {
+function Popup( {correctLetters,wrongLetters,selectedWord,setPlayable }) {
+    let finalMessage='';
+    let finalMessageRevealedWord='';
+    let playable =true;
     return (
         <div class="popup-conatiner">
             <div class="popup">
